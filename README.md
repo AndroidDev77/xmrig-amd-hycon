@@ -1,9 +1,9 @@
 # HYCminer AMD
 
 HYCminer is a high performance Hycon (HYC) OpenCL miner, forked from [XMRig](https://github.com/xmrig/xmrig) release v2.6.1.
+Mining algorithm has been changed to Lyra2.
 
-* This is the **AMD GPU** mining version, there is also a [CPU version](https://github.com/team-hycon/xmrig) and [NVIDIA GPU version](https://github.com/team-hycon/xmrig-nvidia).
-* We plan on releasing our roadmap for next releases soon.
+* This is the **AMD GPU** mining version, 
 
 #### Table of contents
 * [Features](#features)
@@ -16,11 +16,9 @@ HYCminer is a high performance Hycon (HYC) OpenCL miner, forked from [XMRig](htt
 * [Contacts](#contacts)
 
 ## Features
-* Currently running Cryptonight v7
+* Currently running Lyra2 Hash
 * High performance.
-* Official Windows support.
 * Support for backup (failover) mining server.
-* CryptoNight-Lite support for AEON.
 * Automatic GPU configuration.
 * GPU health monitoring (clocks, power, temperature, fan speed) 
 * Nicehash support.
@@ -28,8 +26,8 @@ HYCminer is a high performance Hycon (HYC) OpenCL miner, forked from [XMRig](htt
 
 ## Download
 * Binary releases: TBA
-* Git tree: https://github.com/team-hycon/xmrig-amd.git
-    * Clone with `git clone https://github.com/team-hycon/xmrig-amd.git` :hammer: [Build instructions](https://github.com/team-hycon/xmrig-amd/wiki/Build).
+* Git tree:https://github.com/AndroidDev77/xmrig-amd-hycon/xmrig-amd.git
+    * Clone with `https://github.com/AndroidDev77/xmrig-amd-hycon/xmrig-amd.git` :hammer: [Build instructions](https://github.com/team-hycon/xmrig-amd/wiki/Build).
 
 ## Usage
 See the example `config.json` to configure the miner.
@@ -70,11 +68,8 @@ Also you can use configuration via config file, default **config.json**. You can
 * No TLS support.
 * Default donation 5% (5 minutes in 100 minutes) can be reduced to 1% via command line option `--donate-level`.
 
-## SHA256 for Windows Binary files
-    ad7871564a0417d8b0d608bc34e61d7ab71dffcb61fabff1d3efb79173223826: certUtil -hashfile hycon-amd-win-0.0.1-without-mhttpd/xmrig-amd.exe sha256
-    0dd192e71b6df71a912ab3d614b19de240ebfc7be2c03963d4b268e5599154f3: certUtil -hashfile hycon-amd-win-0.0.1/xmrig-nvidia.exe sha256
-
 ## Contacts
+* curquhart90@gmail.com
 * hycon@glosfer.com
 * [site](https://www.hycon.io)
 * [reddit](https://www.reddit.com/r/HYCON)
